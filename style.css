@@ -55,7 +55,7 @@ body {
 .header {
     background: url(img/heroback.png) no-repeat fixed;
     height: 683px;
-    background-size: auto;
+    background-size: cover;
 }
 
 .nr31w {
@@ -269,6 +269,7 @@ a.arby {
 .popular {
     background: url(img/popularseason.png) no-repeat;
     height: 428px;
+    background-size: cover;
 }
 
 .container.populars {
@@ -406,6 +407,7 @@ a.arby {
 .journeyarea {
     background: url(img/journeyarea.png) no-repeat;
     height: 426px;
+    background-size: cover;
 }
 
 .journey1 h2 {
@@ -516,7 +518,7 @@ a.arby {
 
 .popularstep {
     background: url(img/popularstep.png) no-repeat fixed;
-    background-size: auto 100%;
+    background-size: cover;
 }
 
 .popularstep h1 {
@@ -796,14 +798,14 @@ a.arby {
 
 
 @media (max-width:1366px) {
-	
-	.lens2 p {
-    font-family: bebasneue;
-    font-size: 40px;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-	}
+
+    .lens2 p {
+        font-family: bebasneue;
+        font-size: 40px;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
 
     .popularstep h1 {
         color: white;
